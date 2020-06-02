@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="provide_support">সহায়তা\nপ্রদান</string>
+    <string name="ask_for_support">খাদ্য ত্রান\nপেতে</string>
+    <string name="update">আপডেট</string>
+    <string name="protect_yourself">নিজেকে রক্ষা\nকরো</string>
+
+    <string name="emergency_call">জরুরি কল</string>
+    <string name="tap_here">(এখানে চাপুন)</string>
+
+    <string name="provider">প্রদানকারী</string>
+    <string name="Name">নাম*</string>
+    <string name="Mobile_Number">মোবাইল নম্বর*</string>
+    <string name="Nid_no">Nid নম্বর (১৩ ডিজিট)(ঐচ্ছিক)</string>
+    <string name="Nid_no1">Nid নম্বর (১৩ ডিজিট)*</string>
+    <string name="Amount">(টাকার পরিমান)*</string>
+    <string name="Description">বিবরণ (optional)</string>
+    <string name="warning">**আমাদের জরিপের জন্য এই তথ্য জমা দিন।**</string>
+    <string name="Submit">জমা দিন</string>
+    <string name="receiver">গ্রাহক</string>
+    <string name="family">পরিবারের মোট সদস্য*</string>
+    <string name="Home_address">বাসার ঠিকানা</string>
+    <string name="thana">এলাকা / থানা</string>
+    <string name="District">জেলা</string>
+    <string name="Contact">যোগাযোগ করুন-</string>
+</resources>

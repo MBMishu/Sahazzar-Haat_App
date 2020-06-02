@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Sahazzar Haat</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="provide_support">Provide\nSupport</string>
+    <string name="ask_for_support">Ask for\nsupport</string>
+    <string name="update">update</string>
+    <string name="protect_yourself">protect\nyourself</string>
+
+    <string name="emergency_call">Emergency call</string>
+    <string name="tap_here">(tap here)</string>
+
+    <string name="provider">provider</string>
+    <string name="Name">Name*</string>
+    <string name="Mobile_Number">Mobile Number*</string>
+    <string name="Nid_no">Nid no (13 digit)(optional)</string>
+    <string name="Nid_no1">Nid no (13 digit)*</string>
+    <string name="Amount">(Amount(tk.))*</string>
+    <string name="Description">Description (optional)</string>
+    <string name="warning">**Please  submit  these  informotion  for  our  survey.**</string>
+    <string name="Submit">Submit</string>
+    <string name="receiver">receiver</string>
+    <string name="family">Total family members*</string>
+    <string name="Home_address">Home address</string>
+    <string name="thana">area/thana</string>
+    <string name="District">District</string>
+    <string name="Contact">Contact Us-</string>
+</resources>

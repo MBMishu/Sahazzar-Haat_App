@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".update">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<!--        <Button-->
+<!--            android:id="@+id/corona"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/button_red"-->
+<!--            android:text="corona.gov.bd"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textStyle="bold"-->
+<!--            android:padding="6dp"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginRight="8dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginBottom="4dp"-->
+<!--            android:clickable="true"-->
+<!--            android:onClick="corona"-->
+<!--            tools:ignore="OnClick" />-->
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="WebViewLayout" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

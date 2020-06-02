@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".protect">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp">
+
+            <Button
+                android:id="@+id/corona"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_red"
+                android:text="corona.gov.bd"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:padding="6dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="4dp"
+                android:clickable="true"
+                android:onClick="corona"
+                tools:ignore="OnClick" />
+            <ImageView
+                android:id="@+id/whologo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/who"
+                android:layout_below="@+id/corona"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+        </RelativeLayout>
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="6dp"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/image">
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                app:auto_cycle="false"
+                app:delay="0"
+                app:period="1000"
+                app:corner_radius="20"
+                app:error_image="@drawable/stay_safe"
+                app:placeholder="@drawable/stay_safe"
+                android:id="@+id/slider" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+
+</FrameLayout>
